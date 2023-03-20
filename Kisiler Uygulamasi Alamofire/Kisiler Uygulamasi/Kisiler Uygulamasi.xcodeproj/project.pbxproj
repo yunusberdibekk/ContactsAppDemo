@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0EF075299C4B3800654154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF074299C4B3800654154 /* AppDelegate.swift */; };
+		BE0EF077299C4B3800654154 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF076299C4B3800654154 /* SceneDelegate.swift */; };
+		BE0EF079299C4B3800654154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF078299C4B3800654154 /* ViewController.swift */; };
+		BE0EF07C299C4B3800654154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0EF07A299C4B3800654154 /* Main.storyboard */; };
+		BE0EF081299C4B3D00654154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0EF080299C4B3D00654154 /* Assets.xcassets */; };
+		BE0EF084299C4B3D00654154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0EF082299C4B3D00654154 /* LaunchScreen.storyboard */; };
+		BE0EF08C299C4C5E00654154 /* kisiHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF08B299C4C5E00654154 /* kisiHucreTableViewCell.swift */; };
+		BE0EF08E299C4EC300654154 /* KisiEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF08D299C4EC300654154 /* KisiEkleViewController.swift */; };
+		BE0EF090299C4EDE00654154 /* KisiGuncelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF08F299C4EDE00654154 /* KisiGuncelleViewController.swift */; };
+		BE0EF092299C4EEE00654154 /* KisiDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0EF091299C4EEE00654154 /* KisiDetayViewController.swift */; };
+		BE42537F29BB9A9A00BA98AA /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42537E29BB9A9A00BA98AA /* Kisiler.swift */; };
+		BE42538329BB9AB300BA98AA /* KisiCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42538229BB9AB300BA98AA /* KisiCevap.swift */; };
+		BEF3E21C29BBB61C008A4105 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BEF3E21B29BBB61C008A4105 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE0EF071299C4B3800654154 /* Kisiler Uygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kisiler Uygulamasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0EF074299C4B3800654154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE0EF076299C4B3800654154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE0EF078299C4B3800654154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE0EF07B299C4B3800654154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0EF080299C4B3D00654154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0EF083299C4B3D00654154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE0EF085299C4B3D00654154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0EF08B299C4C5E00654154 /* kisiHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kisiHucreTableViewCell.swift; sourceTree = "<group>"; };
+		BE0EF08D299C4EC300654154 /* KisiEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiEkleViewController.swift; sourceTree = "<group>"; };
+		BE0EF08F299C4EDE00654154 /* KisiGuncelleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiGuncelleViewController.swift; sourceTree = "<group>"; };
+		BE0EF091299C4EEE00654154 /* KisiDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewController.swift; sourceTree = "<group>"; };
+		BE42537E29BB9A9A00BA98AA /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		BE42538229BB9AB300BA98AA /* KisiCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiCevap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0EF06E299C4B3800654154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3E21C29BBB61C008A4105 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0EF068299C4B3800654154 = {
+			isa = PBXGroup;
+			children = (
+				BE0EF073299C4B3800654154 /* Kisiler Uygulamasi */,
+				BE0EF072299C4B3800654154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0EF072299C4B3800654154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EF071299C4B3800654154 /* Kisiler Uygulamasi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0EF073299C4B3800654154 /* Kisiler Uygulamasi */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EF074299C4B3800654154 /* AppDelegate.swift */,
+				BE0EF076299C4B3800654154 /* SceneDelegate.swift */,
+				BE0EF078299C4B3800654154 /* ViewController.swift */,
+				BE0EF07A299C4B3800654154 /* Main.storyboard */,
+				BE0EF080299C4B3D00654154 /* Assets.xcassets */,
+				BE0EF082299C4B3D00654154 /* LaunchScreen.storyboard */,
+				BE0EF085299C4B3D00654154 /* Info.plist */,
+				BE0EF08B299C4C5E00654154 /* kisiHucreTableViewCell.swift */,
+				BE0EF08D299C4EC300654154 /* KisiEkleViewController.swift */,
+				BE0EF08F299C4EDE00654154 /* KisiGuncelleViewController.swift */,
+				BE0EF091299C4EEE00654154 /* KisiDetayViewController.swift */,
+				BE42537E29BB9A9A00BA98AA /* Kisiler.swift */,
+				BE42538229BB9AB300BA98AA /* KisiCevap.swift */,
+			);
+			path = "Kisiler Uygulamasi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0EF070299C4B3800654154 /* Kisiler Uygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0EF088299C4B3D00654154 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi" */;
+			buildPhases = (
+				BE0EF06D299C4B3800654154 /* Sources */,
+				BE0EF06E299C4B3800654154 /* Frameworks */,
+				BE0EF06F299C4B3800654154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kisiler Uygulamasi";
+			packageProductDependencies = (
+				BEF3E21B29BBB61C008A4105 /* Alamofire */,
+			);
+			productName = "Kisiler Uygulamasi";
+			productReference = BE0EF071299C4B3800654154 /* Kisiler Uygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0EF069299C4B3800654154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BE0EF070299C4B3800654154 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BE0EF06C299C4B3800654154 /* Build configuration list for PBXProject "Kisiler Uygulamasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0EF068299C4B3800654154;
+			packageReferences = (
+				BEF3E21A29BBB61C008A4105 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = BE0EF072299C4B3800654154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0EF070299C4B3800654154 /* Kisiler Uygulamasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0EF06F299C4B3800654154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EF084299C4B3D00654154 /* LaunchScreen.storyboard in Resources */,
+				BE0EF081299C4B3D00654154 /* Assets.xcassets in Resources */,
+				BE0EF07C299C4B3800654154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0EF06D299C4B3800654154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EF079299C4B3800654154 /* ViewController.swift in Sources */,
+				BE0EF090299C4EDE00654154 /* KisiGuncelleViewController.swift in Sources */,
+				BE0EF08E299C4EC300654154 /* KisiEkleViewController.swift in Sources */,
+				BE42537F29BB9A9A00BA98AA /* Kisiler.swift in Sources */,
+				BE42538329BB9AB300BA98AA /* KisiCevap.swift in Sources */,
+				BE0EF075299C4B3800654154 /* AppDelegate.swift in Sources */,
+				BE0EF08C299C4C5E00654154 /* kisiHucreTableViewCell.swift in Sources */,
+				BE0EF092299C4EEE00654154 /* KisiDetayViewController.swift in Sources */,
+				BE0EF077299C4B3800654154 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE0EF07A299C4B3800654154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0EF07B299C4B3800654154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0EF082299C4B3D00654154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0EF083299C4B3D00654154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0EF086299C4B3D00654154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE0EF087299C4B3D00654154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0EF089299C4B3D00654154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJJ9RPZ7XR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kisiler Uygulamasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunusberdibekk.Kisiler-Uygulamasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE0EF08A299C4B3D00654154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NJJ9RPZ7XR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kisiler Uygulamasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunusberdibekk.Kisiler-Uygulamasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0EF06C299C4B3800654154 /* Build configuration list for PBXProject "Kisiler Uygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0EF086299C4B3D00654154 /* Debug */,
+				BE0EF087299C4B3D00654154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0EF088299C4B3D00654154 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0EF089299C4B3D00654154 /* Debug */,
+				BE0EF08A299C4B3D00654154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEF3E21A29BBB61C008A4105 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEF3E21B29BBB61C008A4105 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEF3E21A29BBB61C008A4105 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE0EF069299C4B3800654154 /* Project object */;
+}
